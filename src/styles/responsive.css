@@ -1,0 +1,39 @@
+@media(max-width:1400px){
+
+  body{
+    min-width:100%;
+  }
+
+  .main-grid{
+    grid-template-columns:1fr;
+  }
+
+  .bottom-grid{
+    grid-template-columns:1fr;
+  }
+
+  .insights-bar{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .kpi-bar{
+    grid-template-columns:
+      repeat(3,1fr);
+  }
+}
+
+@media(max-width:900px){
+
+  .kpi-bar{
+    grid-template-columns:
+      repeat(2,1fr);
+  }
+
+  .insights-bar{
+    grid-template-columns:1fr;
+  }
+
+  .wins-wrap{
+    flex-direction:column;
+  }
+}
